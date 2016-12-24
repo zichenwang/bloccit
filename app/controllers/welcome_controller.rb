@@ -6,4 +6,8 @@ class WelcomeController < ApplicationController
   #views
   def about
   end
+
+  #views
+  def faq
+  end
 end
