@@ -20,6 +20,7 @@ module RandomData
 
   def self.random_word
     letters = ('a'..'z').to_a
+    #Shuffles elements in self in place.
     letters.shuffle!
     letters[0,rand(3..8)].join
   end
