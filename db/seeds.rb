@@ -29,3 +29,25 @@ end
 puts "Seed finished"
 puts "#{Post.count} posts created"
 puts "#{Comment.count} comments created"
+
+# Create Advertisements
+
+Advertisement.create!(
+  title: "first ad title ",
+  body: "first ad body",
+  price: 1
+)
+
+Advertisement.create!(
+  title: "second ad title ",
+  body: "second ad body",
+  price: 2
+)
+
+Advertisement.create!(
+  title: "third ad title ",
+  body: "third ad body",
+  price: 3
+)
+
+puts "#{Advertisement.count} advertisements created"
